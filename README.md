@@ -35,6 +35,7 @@ just a raw http server [simple.js](simple.js)
 
 ### Node 12
 
+```
 Running 10s test @ http://localhost:3000/
 10 connections
 
@@ -54,10 +55,11 @@ Running 10s test @ http://localhost:3000/
 Req/Bytes counts sampled once per second.
 
 556k requests in 10.01s, 57.9 MB read
-
+```
 
 ### Node 16
 
+```
 Running 10s test @ http://localhost:3000/
 10 connections
 
@@ -77,7 +79,7 @@ Running 10s test @ http://localhost:3000/
 Req/Bytes counts sampled once per second.
 
 498k requests in 10.01s, 63.3 MB read
-
+```
 
 ## Express http server
 `NODE_ENV=production node server.js`
@@ -85,6 +87,7 @@ Req/Bytes counts sampled once per second.
 
 ### Node 12
 
+```
 Running 10s test @ http://localhost:3000/
 10 connections
 
@@ -104,10 +107,11 @@ Running 10s test @ http://localhost:3000/
 Req/Bytes counts sampled once per second.
 
 222k requests in 10.01s, 50.9 MB read
-
+```
 
 ### Node 16
 
+```
 Running 10s test @ http://localhost:3000/
 10 connections
 
@@ -127,7 +131,7 @@ Running 10s test @ http://localhost:3000/
 Req/Bytes counts sampled once per second.
 
 116k requests in 11.01s, 29.2 MB read
-
+```
 
 ## Express fetching an small object from mongodb
 
@@ -135,6 +139,7 @@ Req/Bytes counts sampled once per second.
 
 ### Node 12
 
+```
 Running 10s test @ http://localhost:3000/small
 10 connections
 
@@ -154,9 +159,10 @@ Running 10s test @ http://localhost:3000/small
 Req/Bytes counts sampled once per second.
 
 75k requests in 11.01s, 20.8 MB read
+```
 
 ### Node 16
-
+```
 Running 10s test @ http://localhost:3000/small
 10 connections
 
@@ -176,7 +182,7 @@ Running 10s test @ http://localhost:3000/small
 Req/Bytes counts sampled once per second.
 
 49k requests in 11.01s, 14.8 MB read
-
+```
 
 ## Express fetching a medium object from mongodb
 
@@ -184,6 +190,7 @@ Req/Bytes counts sampled once per second.
 
 ### node 12
 
+```
 Running 10s test @ http://localhost:3000/medium
 10 connections
 
@@ -203,9 +210,10 @@ Running 10s test @ http://localhost:3000/medium
 Req/Bytes counts sampled once per second.
 
 67k requests in 10.01s, 82.1 MB read
+```
 
 ### node 16
-
+```
 Running 10s test @ http://localhost:3000/medium
 10 connections
 
@@ -225,3 +233,4 @@ Running 10s test @ http://localhost:3000/medium
 Req/Bytes counts sampled once per second.
 
 44k requests in 11.01s, 55 MB read
+```
