@@ -15,7 +15,7 @@ Autocannon
 npm i -g autocannon
 npm ci
 ```
-Use the same version of the proect with two node versions:
+Use the same project with two node versions:
 
 ```
 v16.13.2
@@ -30,9 +30,11 @@ Create data on mongodb, see [data.md](data.md)
 First endpoint without dependencies,
 just a raw http server [simple.js](simple.js)
 
-`node simple.js`
-`autocannon localhost:3000/`
-
+```
+node simple.js
+# on another terminal:
+autocannon localhost:3000/
+```
 ### Node 12
 
 ```
